@@ -27,7 +27,7 @@ public class Main {
 			break;
 		case (3):
 			System.out.println("Enter year:");
-			getStudentAfterYear(scanner.nextInt()).forEach(System.out::println);
+			getStudentsWereBornAfterSpecifiedYear(scanner.nextInt()).forEach(System.out::println);
 			break;
 		case (4):
 			System.out.println("Enter group:");
@@ -49,27 +49,26 @@ public class Main {
 	private static void printCourseStudents() {
 		for (int course : COURSES) {
 			System.out.println("Course " + course + ":");
-			Arrays.asList(getStudentsArray()).stream().filter(s -> s.getCourse() == course)
-					.forEach(System.out::println);
+			Arrays.asList(getStudents()).stream().filter(s -> s.getCourse() == course).forEach(System.out::println);
 		}
 	}
 
 	private static List<Student> getGroupStudents(String group) {
-		return Arrays.asList(getStudentsArray()).stream().filter(s -> s.getGroup().equalsIgnoreCase(group))
+		return Arrays.asList(getStudents()).stream().filter(s -> s.getGroup().equalsIgnoreCase(group))
 				.collect(Collectors.toList());
 	}
 
 	private static List<Student> getFacultyStudents(String faculty) {
-		return Arrays.asList(getStudentsArray()).stream().filter(s -> s.getFaculty().equalsIgnoreCase(faculty))
+		return Arrays.asList(getStudents()).stream().filter(s -> s.getFaculty().equalsIgnoreCase(faculty))
 				.collect(Collectors.toList());
 	}
 
-	private static List<Student> getStudentAfterYear(int year) {
-		return Arrays.asList(getStudentsArray()).stream().filter(s -> s.getBirthDay().getYear() > year)
+	private static List<Student> getStudentsWereBornAfterSpecifiedYear(int year) {
+		return Arrays.asList(getStudents()).stream().filter(s -> s.getBirthDay().getYear() > year)
 				.collect(Collectors.toList());
 	}
 
-	private static Student[] getStudentsArray() {
+	private static Student[] getStudents() {
 		Student[] students = new Student[] {
 				new Student(1, "Olga", "Pyshkina", "Sergeevna", LocalDate.of(1993, 3, 22), "Svobody 65", 1234567,
 						"Economy", 1, "sr111"),
