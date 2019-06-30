@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import ru.epam.javaclasses.maintask.cars.Car;
+import ru.epam.javaclasses.maintask.vehicle.Car;
 
 public class TaxiPool {
 

@@ -1,6 +1,6 @@
-package ru.epam.javaclasses.maintask.cars.passengercars;
+package ru.epam.javaclasses.maintask.vehicle.passengervehicle;
 
-import ru.epam.javaclasses.maintask.cars.Car;
+import ru.epam.javaclasses.maintask.vehicle.Car;
 
 public class Sedan extends Car{
 

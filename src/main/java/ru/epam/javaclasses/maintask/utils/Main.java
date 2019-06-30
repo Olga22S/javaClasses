@@ -3,8 +3,9 @@ package ru.epam.javaclasses.maintask.utils;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import ru.epam.javaclasses.maintask.cars.Car;
+
 import ru.epam.javaclasses.maintask.taxipool.TaxiPool;
+import ru.epam.javaclasses.maintask.vehicle.Car;
 
 public class Main {
 

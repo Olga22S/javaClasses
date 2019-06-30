@@ -1,6 +1,6 @@
-package ru.epam.javaclasses.maintask.cars.cargocars;
+package ru.epam.javaclasses.maintask.vehicle.cargovehicle;
 
-import ru.epam.javaclasses.maintask.cars.Car;
+import ru.epam.javaclasses.maintask.vehicle.Car;
 
 public class Truck extends Car {
 

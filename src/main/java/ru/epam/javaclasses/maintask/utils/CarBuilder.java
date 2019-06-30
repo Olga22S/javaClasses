@@ -1,8 +1,8 @@
 package ru.epam.javaclasses.maintask.utils;
 
-import ru.epam.javaclasses.maintask.cars.Car;
-import ru.epam.javaclasses.maintask.cars.cargocars.*;
-import ru.epam.javaclasses.maintask.cars.passengercars.*;
+import ru.epam.javaclasses.maintask.vehicle.Car;
+import ru.epam.javaclasses.maintask.vehicle.cargovehicle.*;
+import ru.epam.javaclasses.maintask.vehicle.passengervehicle.*;
 
 public class CarBuilder {
 

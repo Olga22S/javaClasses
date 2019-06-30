@@ -1,4 +1,4 @@
-package ru.epam.javaclasses.maintask.cars;
+package ru.epam.javaclasses.maintask.vehicle;
 
 public abstract class Car {
 
