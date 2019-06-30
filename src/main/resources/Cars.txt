@@ -1,0 +1,8 @@
+1 Ford Sedan 5 400 9.5 100 500000
+2 Hyundai Sedan 5 450 8 100 450000
+3 Fiat Minivan 8 600 11.5 90 700000
+3 Ford Minivan 7 650 11.3 95 745000
+4 Jeep OffRoadster 5 520 18.5 110 900000
+5 Mitsubishi OffRoadster 5 500 19 100 850000
+6 Gaz Transporter 2 2000000 14.5 85 730000
+7 Peugeot Truck 1 10000000 28.5 80 1500000
